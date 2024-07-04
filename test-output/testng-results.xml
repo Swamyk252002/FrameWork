@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-04T12:17:34 IST" name="Suite" finished-at="2024-07-04T12:20:12 IST" duration-ms="158249">
+    <groups>
+      <group name="Sanity">
+        <method signature="ContactView.testContactView()[pri:2, instance:com.MACU.BUI.ContactView@192d74fb]" name="testContactView" class="com.MACU.BUI.ContactView"/>
+        <method signature="ContactView.testNavigateToContacts()[pri:1, instance:com.MACU.BUI.ContactView@192d74fb]" name="testNavigateToContacts" class="com.MACU.BUI.ContactView"/>
+        <method signature="SchedulerJobs.testSchedulingReports()[pri:1, instance:com.MACU.BUI.SchedulerJobs@590c73d3]" name="testSchedulingReports" class="com.MACU.BUI.SchedulerJobs"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="ContactView.testContactView()[pri:2, instance:com.MACU.BUI.ContactView@192d74fb]" name="testContactView" class="com.MACU.BUI.ContactView"/>
+        <method signature="ContactView.testNavigateToContacts()[pri:1, instance:com.MACU.BUI.ContactView@192d74fb]" name="testNavigateToContacts" class="com.MACU.BUI.ContactView"/>
+        <method signature="SchedulerJobs.testSchedulingReports()[pri:1, instance:com.MACU.BUI.SchedulerJobs@590c73d3]" name="testSchedulingReports" class="com.MACU.BUI.SchedulerJobs"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-07-04T12:17:34 IST" name="Test" finished-at="2024-07-04T12:20:12 IST" duration-ms="158249">
+      <class name="com.MACU.BUI.ContactView">
+        <test-method is-config="true" signature="testSignIn()[pri:0, instance:com.MACU.BUI.ContactView@192d74fb]" started-at="2024-07-04T12:18:50 IST" name="testSignIn" finished-at="2024-07-04T12:19:10 IST" duration-ms="19482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method signature="testNavigateToContacts()[pri:1, instance:com.MACU.BUI.ContactView@192d74fb]" started-at="2024-07-04T12:19:10 IST" name="testNavigateToContacts" description="Navigate To Contact" finished-at="2024-07-04T12:19:41 IST" duration-ms="31394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToContacts -->
+        <test-method signature="testContactView()[pri:2, instance:com.MACU.BUI.ContactView@192d74fb]" started-at="2024-07-04T12:19:41 IST" name="testContactView" description="Contact View" finished-at="2024-07-04T12:20:04 IST" duration-ms="22953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactView -->
+        <test-method is-config="true" signature="testSignout()[pri:0, instance:com.MACU.BUI.ContactView@192d74fb]" started-at="2024-07-04T12:20:04 IST" name="testSignout" finished-at="2024-07-04T12:20:12 IST" duration-ms="7462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignout -->
+      </class> <!-- com.MACU.BUI.ContactView -->
+      <class name="com.MACU.BUI.SchedulerJobs">
+        <test-method is-config="true" signature="testSignIn()[pri:0, instance:com.MACU.BUI.SchedulerJobs@590c73d3]" started-at="2024-07-04T12:17:34 IST" name="testSignIn" finished-at="2024-07-04T12:17:58 IST" duration-ms="24421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method signature="testSchedulingReports()[pri:1, instance:com.MACU.BUI.SchedulerJobs@590c73d3]" started-at="2024-07-04T12:17:58 IST" name="testSchedulingReports" description="BUI - Select Scheduling Reports" finished-at="2024-07-04T12:18:43 IST" duration-ms="44920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchedulingReports -->
+        <test-method is-config="true" signature="testSignout()[pri:0, instance:com.MACU.BUI.SchedulerJobs@590c73d3]" started-at="2024-07-04T12:18:43 IST" name="testSignout" finished-at="2024-07-04T12:18:50 IST" duration-ms="7574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignout -->
+      </class> <!-- com.MACU.BUI.SchedulerJobs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
